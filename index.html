@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Menu slider</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>My landing page</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <button class="cta-btn" id="open">Sign up</button>
+    </header>
+
+    <div class="container">
+      <h1>What is universe</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam esse
+        asperiores officiis minus corporis tempora laboriosam quaerat ut
+        nesciunt ipsum veniam natus deleniti ullam consequuntur blanditiis
+        delectus a, numquam voluptatem maxime enim. Itaque repellat excepturi
+        expedita doloribus, vero repellendus dolor, nisi modi saepe doloremque
+        aperiam quaerat velit aspernatur recusandae a.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+        accusantium cupiditate harum enim ut assumenda distinctio nostrum
+        expedita eveniet nam.
+      </p>
+
+      <h2>Tell me more</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sed ipsum
+        fuga quibusdam necessitatibus error temporibus voluptas ullam natus
+        debitis unde blanditiis deserunt praesentium, nam commodi ipsa amet
+        dolorem quisquam!
+      </p>
+
+      <h2>Features</h2>
+
+      <ul>
+        <li>Magellanic Clouds</li>
+        <li>Milky Way Galaxy</li>
+        <li>Andromeda Galaxy</li>
+        <li>Oort cloud</li>
+        <li>Dark matter</li>
+        <li>kuiper belt</li>
+      </ul>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla nobis
+        sint perspiciatis quod minus, commodi, natus qui similique consequatur
+        magni! Voluptas quibusdam cumque beatae odit quia ex, autem est fugiat?
+        Beatae quo quisquam illum ad incidunt error, dolores tempora doloribus
+        accusamus aliquid ea deleniti, aut quaerat libero sed voluptatum nisi
+        corporis eaque porro optio quod cumque cum itaque. Fuga?
+      </p>
+    </div>
+
+    <!-- Modal -->
+
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
